@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>330179444508-4ab5c301bosgkc7r5kjpl8uoufroqsn1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.330179444508-4ab5c301bosgkc7r5kjpl8uoufroqsn1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAejB4PZNG9QKWF0vzFelGAqgO6Qhizx88</string>
+	<key>GCM_SENDER_ID</key>
+	<string>330179444508</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>codes.davidlee.Signing</string>
+	<key>PROJECT_ID</key>
+	<string>signinswiftui-e650c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>signinswiftui-e650c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:330179444508:ios:3554ec62ec1466cdca04d9</string>
+</dict>
+</plist>

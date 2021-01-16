@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546DFAA025B0C0C000BD91BC /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DFA9F25B0C0C000BD91BC /* BannerViewController.swift */; };
+		546DFAA125B0C0C000BD91BC /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546DFA9F25B0C0C000BD91BC /* BannerViewController.swift */; };
+		54707CB625B0BE17002E23F3 /* AdViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54707CA325B0BE15002E23F3 /* AdViewApp.swift */; };
+		54707CB725B0BE17002E23F3 /* AdViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54707CA325B0BE15002E23F3 /* AdViewApp.swift */; };
+		54707CB825B0BE17002E23F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54707CA425B0BE15002E23F3 /* ContentView.swift */; };
+		54707CB925B0BE17002E23F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54707CA425B0BE15002E23F3 /* ContentView.swift */; };
+		54707CBA25B0BE17002E23F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54707CA525B0BE17002E23F3 /* Assets.xcassets */; };
+		54707CBB25B0BE17002E23F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54707CA525B0BE17002E23F3 /* Assets.xcassets */; };
+		6B9908141B8BA4562E7165E6 /* Pods_AdView__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB828E7C18F0320281F3F32 /* Pods_AdView__macOS_.framework */; };
+		D18B511E081865C476F1BB9C /* Pods_AdView__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DDF79086A0191383AD5864 /* Pods_AdView__iOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AB828E7C18F0320281F3F32 /* Pods_AdView__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdView__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DDF79086A0191383AD5864 /* Pods_AdView__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdView__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		546DFA9F25B0C0C000BD91BC /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		54707CA325B0BE15002E23F3 /* AdViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewApp.swift; sourceTree = "<group>"; };
+		54707CA425B0BE15002E23F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54707CA525B0BE17002E23F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54707CAA25B0BE17002E23F3 /* AdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54707CAD25B0BE17002E23F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54707CB225B0BE17002E23F3 /* AdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54707CB425B0BE17002E23F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54707CB525B0BE17002E23F3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8260C3D7DA47B6AB9077FD69 /* Pods-AdView (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdView (macOS).release.xcconfig"; path = "Target Support Files/Pods-AdView (macOS)/Pods-AdView (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		830F72AD6381EE2DE9E83001 /* Pods-AdView (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdView (macOS).debug.xcconfig"; path = "Target Support Files/Pods-AdView (macOS)/Pods-AdView (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		D170555354F5633906E11427 /* Pods-AdView (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdView (iOS).release.xcconfig"; path = "Target Support Files/Pods-AdView (iOS)/Pods-AdView (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		FBDB93982E5F5328E113AB0A /* Pods-AdView (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdView (iOS).debug.xcconfig"; path = "Target Support Files/Pods-AdView (iOS)/Pods-AdView (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54707CA725B0BE17002E23F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18B511E081865C476F1BB9C /* Pods_AdView__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54707CAF25B0BE17002E23F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9908141B8BA4562E7165E6 /* Pods_AdView__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8703811BE39416D60625E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBDB93982E5F5328E113AB0A /* Pods-AdView (iOS).debug.xcconfig */,
+				D170555354F5633906E11427 /* Pods-AdView (iOS).release.xcconfig */,
+				830F72AD6381EE2DE9E83001 /* Pods-AdView (macOS).debug.xcconfig */,
+				8260C3D7DA47B6AB9077FD69 /* Pods-AdView (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2529191ED523BB22683AF4EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28DDF79086A0191383AD5864 /* Pods_AdView__iOS_.framework */,
+				1AB828E7C18F0320281F3F32 /* Pods_AdView__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54707C9D25B0BE15002E23F3 = {
+			isa = PBXGroup;
+			children = (
+				54707CA225B0BE15002E23F3 /* Shared */,
+				54707CAC25B0BE17002E23F3 /* iOS */,
+				54707CB325B0BE17002E23F3 /* macOS */,
+				54707CAB25B0BE17002E23F3 /* Products */,
+				0F8703811BE39416D60625E3 /* Pods */,
+				2529191ED523BB22683AF4EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54707CA225B0BE15002E23F3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				54707CA325B0BE15002E23F3 /* AdViewApp.swift */,
+				54707CA425B0BE15002E23F3 /* ContentView.swift */,
+				546DFA9F25B0C0C000BD91BC /* BannerViewController.swift */,
+				54707CA525B0BE17002E23F3 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		54707CAB25B0BE17002E23F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54707CAA25B0BE17002E23F3 /* AdView.app */,
+				54707CB225B0BE17002E23F3 /* AdView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54707CAC25B0BE17002E23F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54707CAD25B0BE17002E23F3 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		54707CB325B0BE17002E23F3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				54707CB425B0BE17002E23F3 /* Info.plist */,
+				54707CB525B0BE17002E23F3 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54707CA925B0BE17002E23F3 /* AdView (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54707CBE25B0BE17002E23F3 /* Build configuration list for PBXNativeTarget "AdView (iOS)" */;
+			buildPhases = (
+				2DEF93415DC02F15D726E848 /* [CP] Check Pods Manifest.lock */,
+				54707CA625B0BE17002E23F3 /* Sources */,
+				54707CA725B0BE17002E23F3 /* Frameworks */,
+				54707CA825B0BE17002E23F3 /* Resources */,
+				9552A516F4540007D2ED110E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdView (iOS)";
+			productName = "AdView (iOS)";
+			productReference = 54707CAA25B0BE17002E23F3 /* AdView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54707CB125B0BE17002E23F3 /* AdView (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54707CC125B0BE17002E23F3 /* Build configuration list for PBXNativeTarget "AdView (macOS)" */;
+			buildPhases = (
+				7570398957FD8837C6061A63 /* [CP] Check Pods Manifest.lock */,
+				54707CAE25B0BE17002E23F3 /* Sources */,
+				54707CAF25B0BE17002E23F3 /* Frameworks */,
+				54707CB025B0BE17002E23F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdView (macOS)";
+			productName = "AdView (macOS)";
+			productReference = 54707CB225B0BE17002E23F3 /* AdView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54707C9E25B0BE15002E23F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					54707CA925B0BE17002E23F3 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					54707CB125B0BE17002E23F3 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 54707CA125B0BE15002E23F3 /* Build configuration list for PBXProject "AdView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54707C9D25B0BE15002E23F3;
+			productRefGroup = 54707CAB25B0BE17002E23F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54707CA925B0BE17002E23F3 /* AdView (iOS) */,
+				54707CB125B0BE17002E23F3 /* AdView (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54707CA825B0BE17002E23F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54707CBA25B0BE17002E23F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54707CB025B0BE17002E23F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54707CBB25B0BE17002E23F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DEF93415DC02F15D726E848 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdView (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7570398957FD8837C6061A63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdView (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9552A516F4540007D2ED110E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdView (iOS)/Pods-AdView (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdView (iOS)/Pods-AdView (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdView (iOS)/Pods-AdView (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54707CA625B0BE17002E23F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546DFAA025B0C0C000BD91BC /* BannerViewController.swift in Sources */,
+				54707CB825B0BE17002E23F3 /* ContentView.swift in Sources */,
+				54707CB625B0BE17002E23F3 /* AdViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54707CAE25B0BE17002E23F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546DFAA125B0C0C000BD91BC /* BannerViewController.swift in Sources */,
+				54707CB925B0BE17002E23F3 /* ContentView.swift in Sources */,
+				54707CB725B0BE17002E23F3 /* AdViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54707CBC25B0BE17002E23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54707CBD25B0BE17002E23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		54707CBF25B0BE17002E23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBDB93982E5F5328E113AB0A /* Pods-AdView (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4GBFWNU9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.davidlee.AdView;
+				PRODUCT_NAME = AdView;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54707CC025B0BE17002E23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D170555354F5633906E11427 /* Pods-AdView (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z4GBFWNU9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.davidlee.AdView;
+				PRODUCT_NAME = AdView;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54707CC225B0BE17002E23F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830F72AD6381EE2DE9E83001 /* Pods-AdView (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4Z4GBFWNU9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.davidlee.AdView;
+				PRODUCT_NAME = AdView;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		54707CC325B0BE17002E23F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8260C3D7DA47B6AB9077FD69 /* Pods-AdView (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4Z4GBFWNU9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = codes.davidlee.AdView;
+				PRODUCT_NAME = AdView;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54707CA125B0BE15002E23F3 /* Build configuration list for PBXProject "AdView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54707CBC25B0BE17002E23F3 /* Debug */,
+				54707CBD25B0BE17002E23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54707CBE25B0BE17002E23F3 /* Build configuration list for PBXNativeTarget "AdView (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54707CBF25B0BE17002E23F3 /* Debug */,
+				54707CC025B0BE17002E23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54707CC125B0BE17002E23F3 /* Build configuration list for PBXNativeTarget "AdView (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54707CC225B0BE17002E23F3 /* Debug */,
+				54707CC325B0BE17002E23F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54707C9E25B0BE15002E23F3 /* Project object */;
+}
